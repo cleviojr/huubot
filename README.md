@@ -1,0 +1,2 @@
+# huubot
+nodejs discord selfbot
