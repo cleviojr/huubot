@@ -1,0 +1,24 @@
+{
+  "name": "huubot",
+  "version": "1.0.0",
+  "description": "multi purpose selfbot for discord",
+  "main": "huubot.js",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "n_": "^1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node huubot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github/cleviojr/huubot"
+  },
+  "keywords": [
+    "selfbot",
+    "discord"
+  ],
+  "author": "cleviojr",
+  "license": "MIT"
+}
