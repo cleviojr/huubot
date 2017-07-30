@@ -1,6 +1,6 @@
 module.exports = ping = {
     name:        "ping",
-    description: "says pong and your selfbot ping to websocket",
+    description: "says pong and your huubot ping to websocket",
     usage:       "type ,ping",
 
     run: (m, args) => {
