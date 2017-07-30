@@ -5,11 +5,13 @@
   "main": "huubot.js",
   "dependencies": {
     "discord.js": "^11.1.0",
-    "n_": "^1.4.4"
+    "n_": "^1.4.4",
+    "readline-sync": "^1.4.7"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node huubot.js"
+    "test": "node huubot.js",
+    "create_credentials": "node credentials.js"
   },
   "repository": {
     "type": "git",
