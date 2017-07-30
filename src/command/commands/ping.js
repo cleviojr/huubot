@@ -1,9 +1,9 @@
 module.exports = ping = {
-    name: "ping",
-    description: "says pong",
-    usage: "type ping",
+    name:        "ping",
+    description: "says pong and your selfbot ping to websocket",
+    usage:       "type ,ping",
 
     run: (m, args) => {
-        m.channel.send('pong')
+        m.channel.send(`**Pong!** ${m.client.ping}ms.`)
     }
 }
