@@ -24,10 +24,15 @@ module.exports = class CommandListener {
     } 
 
     isCommand(key) {
-        return _.each(all_commands, (c) => {
+        var is_command = false
+
+        _.each(all_commands, (c) => {
             if (c == key) {
-                return true
+                is_command = true
+                return false
             }
         })
+
+        return is_command
     }
 }
