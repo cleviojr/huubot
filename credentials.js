@@ -1,7 +1,8 @@
-//this is meant to be a tool that creates a credentials.json for you necessary to run the huubot
+//this is meant to be a tool that creates a credentials.json for you, necessary to run the huubot
 //to run this, please use: node credentials.js
 //make sure you already have all dependencies installed from package.json
 //if you don't have the dependencies installed then use: npm install
+//if you already have a credentials.json inside the "hidden" folder then please delete before continuing
 
 var fs           = require('fs')
 var readlineSync = require('readline-sync')
